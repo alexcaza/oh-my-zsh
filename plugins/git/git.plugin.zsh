@@ -168,6 +168,8 @@ alias gke='\gitk --all $(git log -g --pretty=%h)'
 compdef _git gke='gitk'
 
 alias gl='git pull'
+alias glc='git rev-parse HEAD'
+alias glcs='git rev-parse --short HEAD'
 alias glg='git log --stat'
 alias glgp='git log --stat -p'
 alias glgg='git log --graph'
